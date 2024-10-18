@@ -1,5 +1,7 @@
 package com.example;
 
+import com.example.Customer;
+import com.example.CustomerDao;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -33,4 +35,3 @@ public class CustomerService {
         customerDao.deleteCustomer(id);
     }
 }
-

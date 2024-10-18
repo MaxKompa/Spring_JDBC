@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.Customer;
 import java.util.List;
 
 public interface CustomerDao {
@@ -9,5 +10,6 @@ public interface CustomerDao {
     void updateCustomer(Customer customer);
     void deleteCustomer(int id);
 }
+
 
 

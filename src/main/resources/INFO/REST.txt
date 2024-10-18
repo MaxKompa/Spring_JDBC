@@ -1,0 +1,5 @@
+GET /customers - отримати всіх клієнтів
+GET /customers/{id} - отримати клієнта за ID
+POST /customers - додати нового клієнта
+PUT /customers/{id} - оновити клієнта за ID
+DELETE /customers/{id} - видалити клієнта за ID
